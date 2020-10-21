@@ -43,11 +43,11 @@ $leeftijd = floor((time() - strtotime('2001-12-17')) / 31556926);
     <div class="projecten-wrapper">
 
         <div class="projecten-container">
-            <a href="#"><img src="assets/images/projecten/finnpaes.png" alt="Mijn persoonlijke portfolio website" /></a>
+            <a href="https://github.com/FinnPaes/finnpaes.nl" target="_blank"><img src="assets/images/projecten/finnpaes.png" alt="Mijn persoonlijke portfolio website" /></a>
             <p>Dit is eigenlijk... uhh, ja deze website. HTML, CSS, PHP.</p>
         </div>
         <div class="projecten-container">
-            <img src="assets/images/projecten/bani.png" alt="Website voor school project supermarkt Bani" />
+            <a href="https://github.com/FinnPaes/Supermarkt-Bani" target="_blank"><img src="assets/images/projecten/bani.png" alt="Website voor school project supermarkt Bani" /></a>
             <p>Een school project, voor school moest je zelf een webshop bouwen. HTML, CSS, PHP, SQL.</p>
         </div>
     </div>
