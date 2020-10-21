@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finn Paes &mdash; 18 Jaar Oude Web Developer</title>
+    <title>Finn Paes &mdash; Web Developer</title>
     <meta name="title" content="Finn Paes">
     <meta name="description" content="Mijn naam is Finn Paes ik ben een 18 jaar oude Web Developer uit Oosthuizen. Lees meer over mij!">
     <meta name="keywords" content="Finn Paes, Finn, Paes, finnpaes.nl, finn paes twitter, finnpaes, finn p, web developer">
