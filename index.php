@@ -35,7 +35,7 @@ $leeftijd = floor((time() - strtotime('2001-12-17')) / 31556926);
 
 <div class="over-mij" id="over-mij">
     <h2>Wie ben ik?</h2>
-    <p>Mijn naam is Finn, ik ben <?php echo $leeftijd; ?> jaar oud. Sinds de middelbare school maak ik al websites, dit is altijd al mijn hobby geweest. Hierdoor wist ik ook dat ik een Web Developer wilde worden. De talen die ik op dit moment beheers zijn: HTML, CSS, Javascript, PHP en SQL.<br>Verder heb ik veel verstand van Computers; Windows, Linux en hardware zelf. Alles aan Computers vind ik erg interessant. Op dit moment volg ik de opleiding Applicatieontwikkelaar/Software Developer op het MBO.<br><br>Je kan mij volgen op: <a href="https://www.linkedin.com/in/finnpaes/" target="_blank">LinkedIn <i class="fab fa-linkedin"></i></a> en mijn <a href="https://github.com/FinnPaes/" target="_blank">Github <i class="fab fa-github-square"></i></a> pagina.</p>
+    <p>Mijn naam is Finn, ik ben <?php echo $leeftijd; ?> jaar oud. Sinds de middelbare school maak ik al websites, dit is altijd al mijn hobby geweest. Hierdoor wist ik ook dat ik een Web Developer wilde worden. De talen die ik op dit moment beheers zijn: HTML, CSS, Javascript, PHP en SQL.<br>Verder heb ik veel verstand van Computers; Windows, Linux en hardware. Alles aan Computers vind ik erg interessant. Op dit moment volg ik de opleiding Applicatieontwikkelaar/Software Developer op het MBO.<br><br>Je kan mij volgen op: <a href="https://www.linkedin.com/in/finnpaes/" target="_blank">LinkedIn <i class="fab fa-linkedin"></i></a> en mijn <a href="https://github.com/FinnPaes/" target="_blank">Github <i class="fab fa-github-square"></i></a> pagina.</p>
 </div>
 
 <div class="projecten" id="projecten">
@@ -44,12 +44,17 @@ $leeftijd = floor((time() - strtotime('2001-12-17')) / 31556926);
 
         <div class="projecten-container">
             <a href="https://github.com/FinnPaes/finnpaes.nl" target="_blank"><img src="assets/images/projecten/finnpaes.png" alt="Mijn persoonlijke portfolio website" /></a>
-            <p>Dit is eigenlijk... uhh, ja deze website. HTML, CSS, PHP.</p>
+            <p>Dit is de website waar jij je nu bevind. HTML, CSS, PHP.</p>
         </div>
         <div class="projecten-container">
             <a href="https://github.com/FinnPaes/Supermarkt-Bani" target="_blank"><img src="assets/images/projecten/bani.png" alt="Website voor school project supermarkt Bani" /></a>
-            <p>Een school project, voor school moest je zelf een webshop bouwen. HTML, CSS, PHP, SQL.</p>
+            <p>Voor mijn opleiding moest ik zelf een webshop maken. HTML, CSS, PHP, SQL.</p>
         </div>
+        <div class="projecten-container">
+            <a href="https://github.com/FinnPaes/Beroepsproject4" target="_blank"><img src="assets/images/projecten/alphen-aan-den-rijn.png" alt="Website voor school project Alphen Aan Den Rijn schadeclaim" /></a>
+            <p>Ook een opdracht voor mijn opleiding, zelf een schade claim systeem bouwen. HTML, CSS, PHP, SQL.</p>
+        </div>
+
     </div>
 </div>
 
