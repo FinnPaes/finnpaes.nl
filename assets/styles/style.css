@@ -27,6 +27,26 @@ body {
 	animation: achtergrond 15s ease infinite;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #0E1212; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
 /* Navigatie */
 nav {
     position: fixed;
@@ -42,6 +62,11 @@ nav .nav-container h1 {
     font-size: 2rem;
     font-weight: 700;
     color: var(--wit);
+    transition: .25s ease-in-out;
+}
+
+nav .nav-container h1:hover {
+    letter-spacing: 2px;
 }
 
 nav .nav-container a {
@@ -66,6 +91,11 @@ nav .nav-container a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url("../images/welkom.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .welkom h1 {
