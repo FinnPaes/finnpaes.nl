@@ -42,6 +42,11 @@ $leeftijd = floor((time() - strtotime('2001-12-17')) / 31556926);
     <h1>Mijn projecten</h1>
     <div class="projecten-wrapper">
 
+
+        <div class="projecten-container">
+            <a href="https://rekensnel.nl" target="_blank"><img src="assets/images/projecten/rekensnel.png" alt="RekenSnel.nl sommentrainer" /></a>
+            <p>Een opkomend project om rekensommen te oefenen. HTML, CSS, JavaScript, PHP, SQL.</p>
+        </div>
         <div class="projecten-container">
             <a href="https://github.com/FinnPaes/finnpaes.nl" target="_blank"><img src="assets/images/projecten/finnpaes.png" alt="Mijn persoonlijke portfolio website" /></a>
             <p>Dit is de website waar jij je nu bevind. HTML, CSS, PHP.</p>
