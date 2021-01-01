@@ -24,7 +24,8 @@ body {
     background-color: #0E1212;
     background: linear-gradient(315deg, rgba(14,18,18,1) 30%, rgba(38,41,41,1) 100%);
     background-size: 400% 400%;
-	animation: achtergrond 15s ease infinite;
+	-webkit-animation: achtergrond 15s ease infinite;
+	        animation: achtergrond 15s ease infinite;
 }
 
 /* width */
@@ -242,6 +243,18 @@ footer h2 a {
 
 footer h2 a:hover {
     opacity: .6;
+}
+
+@-webkit-keyframes achtergrond {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 @keyframes achtergrond {
